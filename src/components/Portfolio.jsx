@@ -7,10 +7,16 @@ function Portfolio() {
   // Define data for each project
   const projects = [
     {
-      title: 'Project 1',
+      title: 'Password Generator',
       image: 'path/to/project1.jpg',
-      deployedLink: 'https://example.com/project1',
-      githubLink: 'https://github.com/example/project1',
+      deployedLink: 'https://daviddelarosa210.github.io/Module-3-Challange/',
+      githubLink: 'https://github.com/daviddelarosa210/Password-Generator.git',
+    },
+    {
+      title: 'Work Day Scheduler',
+      image: 'path/to/project1.jpg',
+      deployedLink: 'https://daviddelarosa210.github.io/Work-Day-Scheduler/',
+      githubLink: 'https://github.com/daviddelarosa210/Work-Day-Scheduler.git',
     },
     // Add data for other projects...
   ];
