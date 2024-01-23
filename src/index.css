@@ -45,7 +45,14 @@ main {
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem;  margin: 0;
+  padding: 2rem;
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 h1, h2, h3 {
@@ -91,6 +98,7 @@ section img {
   height: auto; /* Maintain the aspect ratio of the image */
   display: block; /* Remove extra space below inline images */
   margin: 0 auto; /* Center the image within its container */
+  border-radius: 50%;
 }
 :root {
   --primary-color: #3498db; /* Adjust the primary color as needed */
@@ -176,9 +184,10 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
+  height: 100px;
 }
 
 /* Mobile Responsive Styles */
@@ -282,3 +291,4 @@ button:hover {
 [class^="boxlink-mod-"]:hover {
     background-color: #45a049;
 }
+

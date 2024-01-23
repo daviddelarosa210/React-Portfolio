@@ -1,15 +1,19 @@
-
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
+  const activeLinkStyle = {
+    fontWeight: 'bold',
+    color: '#ff9900', // Example color for the active link
+  };
+
   return (
     <nav>
       <ul>
-        <li><Link to="/">About Me</Link></li>
-        <li><Link to="/portfolio">Portfolio</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/resume">Resume</Link></li>
+        <li><NavLink exact to="/" activeStyle={activeLinkStyle}>About Me</NavLink></li>
+        <li><NavLink to="/portfolio" activeStyle={activeLinkStyle}>Portfolio</NavLink></li>
+        <li><NavLink to="/contact" activeStyle={activeLinkStyle}>Contact</NavLink></li>
+        <li><NavLink to="/resume" activeStyle={activeLinkStyle}>Resume</NavLink></li>
       </ul>
     </nav>
   );

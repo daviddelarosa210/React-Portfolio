@@ -9,7 +9,7 @@ function Project({ title, image, deployedLink, githubLink }) {
       {/* Add an image */}
       <img src={image} alt={title} />
       {/* Add links to deployed app and GitHub repository */}
-      <a href={deployedLink} target="_blank" rel="noopener noreferrer">
+      <a style={{ marginRight: '50px' }} href={deployedLink} target="_blank" rel="noopener noreferrer">
         Deployed App
       </a>
       <a href={githubLink} target="_blank" rel="noopener noreferrer">

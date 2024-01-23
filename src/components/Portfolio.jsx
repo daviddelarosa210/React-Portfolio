@@ -8,15 +8,21 @@ function Portfolio() {
   const projects = [
     {
       title: 'Password Generator',
-      image: 'path/to/project1.jpg',
+      image: 'src/assets/Screen Shot 2023-09-10 at 9.25.47 PM.png',
       deployedLink: 'https://daviddelarosa210.github.io/Module-3-Challange/',
       githubLink: 'https://github.com/daviddelarosa210/Password-Generator.git',
     },
     {
       title: 'Work Day Scheduler',
-      image: 'path/to/project1.jpg',
+      image: 'src/assets/Work-scheduler.png',
       deployedLink: 'https://daviddelarosa210.github.io/Work-Day-Scheduler/',
       githubLink: 'https://github.com/daviddelarosa210/Work-Day-Scheduler.git',
+    },
+    {
+      title: 'Thunder Jamz',
+      image: 'src/assets/Screenshot 2024-01-23 at 1.36.21 PM.png',
+      deployedLink: 'https://lillyw54.github.io/weatherbasedapp/',
+      githubLink: 'https://github.com/daviddelarosa210/weatherbaseapp.git',
     },
     // Add data for other projects...
   ];

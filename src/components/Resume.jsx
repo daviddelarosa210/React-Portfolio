@@ -1,5 +1,3 @@
-// Resume.jsx
-
 import React from 'react';
 
 function Resume() {
@@ -12,8 +10,11 @@ function Resume() {
       </a>
       {/* List of proficiencies */}
       <ul>
-        <li>Proficiency 1</li>
-        <li>Proficiency 2</li>
+        <li>Front-end technologies: HTML, CSS, JavaScript, React, etc.</li>
+        <li>Back-end technologies: Node.js, Express, MongoDB, etc.</li>
+        <li>Database management: MySQL, MongoDB, etc.</li>
+        <li>API development and consumption</li>
+        <li>Version control with Git</li>
         {/* Add more proficiencies... */}
       </ul>
     </section>
