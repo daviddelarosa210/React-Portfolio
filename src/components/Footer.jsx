@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       {/* Add your footer content here */}
-      <p>&copy; 2024 Your Website Name</p>
+      <p>&copy; 2024 David's Resume</p>
       {/* Text links to GitHub and LinkedIn */}
       <div>
         <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
